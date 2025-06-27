@@ -1,1 +1,81 @@
-<!DOCTYPE html><html lang='es'><head><meta charset='UTF-8'><title>Electricista</title></head><body><h1>Sitio del electricista</h1></body></html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Electricista Matriculado</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #fff; color: #222; }
+    header { background-color: #003366; color: white; text-align: center; padding: 20px; }
+    .banner { width: 100%; max-width: 600px; margin: 20px auto; display: block; }
+    .servicios, .trabajos, .ubicacion { max-width: 1000px; margin: auto; padding: 20px; }
+    h2 { color: #003366; text-align: center; }
+    ul { list-style: none; padding: 0; }
+    ul li::before { content: "✔️ "; color: green; }
+    ul li { margin: 10px 0; font-size: 18px; }
+    .whatsapp { display: flex; justify-content: center; margin: 30px 0; }
+    .whatsapp a { background-color: #25d366; color: white; padding: 15px 25px; text-decoration: none; font-size: 20px; border-radius: 5px; font-weight: bold; }
+    .trabajos div { max-width: 300px; margin: auto; }
+    .trabajos img { width:100%; border-radius: 8px; }
+    .trabajos .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+    footer { background-color: #f2f2f2; text-align: center; padding: 10px; font-size: 14px; color: #777; }
+    footer a { color: #3b5998; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Técnico Electricista Matriculado</h1>
+    <p>Trabajos certificados – Edesur / Edenor</p>
+  </header>
+
+  <img src="img/banner.png" alt="Servicios Electricista" class="banner"/>
+
+  <section class="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Certificado DCI y CAIE</li>
+      <li>Resolución 900/15 PAT</li>
+      <li>Aumento de potencia</li>
+      <li>Plano electromecánico</li>
+      <li>Armado de pilares de luz</li>
+      <li>Trámites en Edesur / Edenor</li>
+    </ul>
+  </section>
+
+  <section class="trabajos">
+    <h2>Trabajos Realizados</h2>
+    <p style="text-align:center;">Algunos de mis proyectos recientes como técnico electricista matriculado:</p>
+    <div class="grid">
+      <div><img src="img/trabajo1.jpeg" alt="Trabajo 1"/><p style="text-align:center;">Caja de conexión empotrada</p></div>
+      <div><img src="img/trabajo2.jpeg" alt="Trabajo 2"/><p style="text-align:center;">Tablero eléctrico SICA</p></div>
+      <div><img src="img/trabajo3.jpeg" alt="Trabajo 3"/><p style="text-align:center;">Vista de frente con pilar</p></div>
+      <div><img src="img/trabajo4.jpeg" alt="Trabajo 4"/><p style="text-align:center;">Detalle conexión interna</p></div>
+      <div><img src="img/trabajo5.jpeg" alt="Trabajo 5"/><p style="text-align:center;">Pilar de ladrillos con caja</p></div>
+      <div><img src="img/trabajo6.jpeg" alt="Trabajo 6"/><p style="text-align:center;">Disyuntor y térmica montados</p></div>
+    </div>
+  </section>
+
+  <section class="ubicacion">
+    <h2>Ubicación</h2>
+    <p style="text-align:center;">Ubicación aproximada de trabajo</p>
+    <div style="display: flex; justify-content: center; padding: 20px;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.905448989648!2d-58.3815621!3d-34.6294822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb17ffad6dd1%3A0x4ebc17d33277a9a7!2sAv.%20San%20Juan%201234%2C%20C1234%20ABC%2C%20CABA!5e0!3m2!1ses!2sar!4v1718234567890!5m2!1ses!2sar"
+        width="100%" height="300" style="border:0; max-width: 800px;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <div class="whatsapp">
+    <a href="https://wa.me/541141748599" target="_blank">📱 Contactar por WhatsApp</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Técnico Electricista Matriculado</p>
+    <p><a href="https://www.facebook.com/profile.php?id=100093073104651" target="_blank">📘 Facebook</a></p>
+  </footer>
+
+</body>
+</html>
